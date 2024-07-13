@@ -6,10 +6,11 @@
           content="width=device-width, initial-scale=1.0">
     <title>Яндекс.Дом</title>
     <link rel="preload" as="font" href="/assets/lato-BEhtfm5r.woff2" type="font/woff2" crossorigin="anonymous">
-    <script defer src="vendors/react-with-dom.js"></script>
+
     <link rel="stylesheet" type="text/css" href="data:text/css;base64,LyogaHR0cDovL21leWVyd2ViLmNvbS9lcmljL3Rvb2xzL2Nzcy9yZXNldC8NCiAgIHYyLjAgfCAyMDExMDEyNg0KICAgTGljZW5zZTogbm9uZSAocHVibGljIGRvbWFpbikNCiovDQoNCmh0bWwsIGJvZHksIGRpdiwgc3BhbiwgYXBwbGV0LCBvYmplY3QsIGlmcmFtZSwNCmgxLCBoMiwgaDMsIGg0LCBoNSwgaDYsIHAsIGJsb2NrcXVvdGUsIHByZSwNCmEsIGFiYnIsIGFjcm9ueW0sIGFkZHJlc3MsIGJpZywgY2l0ZSwgY29kZSwNCmRlbCwgZGZuLCBlbSwgaW1nLCBpbnMsIGtiZCwgcSwgcywgc2FtcCwNCnNtYWxsLCBzdHJpa2UsIHN0cm9uZywgc3ViLCBzdXAsIHR0LCB2YXIsDQpiLCB1LCBpLCBjZW50ZXIsDQpkbCwgZHQsIGRkLCBvbCwgdWwsIGxpLA0KZmllbGRzZXQsIGZvcm0sIGxhYmVsLCBsZWdlbmQsDQp0YWJsZSwgY2FwdGlvbiwgdGJvZHksIHRmb290LCB0aGVhZCwgdHIsIHRoLCB0ZCwNCmFydGljbGUsIGFzaWRlLCBjYW52YXMsIGRldGFpbHMsIGVtYmVkLA0KZmlndXJlLCBmaWdjYXB0aW9uLCBmb290ZXIsIGhlYWRlciwgaGdyb3VwLA0KbWVudSwgbmF2LCBvdXRwdXQsIHJ1YnksIHNlY3Rpb24sIHN1bW1hcnksDQp0aW1lLCBtYXJrLCBhdWRpbywgdmlkZW8gew0KICAgIG1hcmdpbjogMDsNCiAgICBwYWRkaW5nOiAwOw0KICAgIGJvcmRlcjogMDsNCiAgICBmb250LXNpemU6IDEwMCU7DQogICAgZm9udDogaW5oZXJpdDsNCiAgICB2ZXJ0aWNhbC1hbGlnbjogYmFzZWxpbmU7DQp9DQovKiBIVE1MNSBkaXNwbGF5LXJvbGUgcmVzZXQgZm9yIG9sZGVyIGJyb3dzZXJzICovDQphcnRpY2xlLCBhc2lkZSwgZGV0YWlscywgZmlnY2FwdGlvbiwgZmlndXJlLA0KZm9vdGVyLCBoZWFkZXIsIGhncm91cCwgbWVudSwgbmF2LCBzZWN0aW9uIHsNCiAgICBkaXNwbGF5OiBibG9jazsNCn0NCmJvZHkgew0KICAgIGxpbmUtaGVpZ2h0OiAxOw0KfQ0Kb2wsIHVsIHsNCiAgICBsaXN0LXN0eWxlOiBub25lOw0KfQ0KYmxvY2txdW90ZSwgcSB7DQogICAgcXVvdGVzOiBub25lOw0KfQ0KYmxvY2txdW90ZTpiZWZvcmUsIGJsb2NrcXVvdGU6YWZ0ZXIsDQpxOmJlZm9yZSwgcTphZnRlciB7DQogICAgY29udGVudDogJyc7DQogICAgY29udGVudDogbm9uZTsNCn0NCnRhYmxlIHsNCiAgICBib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlOw0KICAgIGJvcmRlci1zcGFjaW5nOiAwOw0KfQ0K" media="screen">
     <link rel="stylesheet" type="text/css" href="/assets/styles-BqJDmlVM.css" media="screen">
     <link rel="preload" as="image" href="/assets/hero-dashboard-3oMrygxU.webp" type="image/webp" fetchpriority="high">
+  <script type="module" crossorigin="anonymous" src="/assets/index-CDDdfrzE.js"></script>
 </head>
 <body>
 
@@ -36,7 +37,7 @@
     </div>
 </footer>
 
-<script defer src="vendors/babel.min.js"></script>
+
 <script defer type="text/babel">
     function Header() {
         let [expanded, setExpanded] = React.useState(false);
@@ -394,15 +395,13 @@
         </main>;
     }
 
-    setTimeout(() => {
-        const root = ReactDOM.createRoot(document.getElementById('app'));
+    const root = ReactDOM.createRoot(document.getElementById('app'));
         root.render(
             <>
                 <Header />
                 <Main />
             </>
         );
-    }, 0);
 </script>
 
 </body>
